@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+button,
+a {
+  all: unset;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+#hero1 {
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background: linear-gradient(
+      89.79deg,
+      #ffffff 26.59%,
+      rgba(255, 255, 255, 0) 100.84%
+    ),url("Desktop - 1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 80px;
+  }
+
+  nav .leftchild {
+    display: flex;
+    gap: 40px;
+  }
+
+  nav .rightchild {
+    display: flex;
+    gap: 45px;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+
+  button.login {
+    color: white;
+    font-weight: medium;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+
+  button.member {
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: medium;
+    background-color: #23a6f0;
+    padding: 12px 15px;
+    border-radius: 4px;
+  }
+
+
+  nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav .menu li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .businessadvisory {
+    position: absolute;
+    display: flex;
+    height: 160px;
+    width: 587px;
+    left: 195px;
+    top: 253px;
+    border-radius: nullpx;    
+
+        /* h1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+
+    /* or 138% */
+    letter-spacing: 0.2px;
+
+    /* text-color */
+    color: #252B42;
+    
+  }
+  
+  .disaster {
+    /* Disaster recovery planning, business continuity management, and disaster recovery. */
+    position: absolute;
+    width: 494px;
+    height: 60px;
+    left: 195px;
+    top: 430px;
+
+    /* h4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+    /* text-color */
+    color: #252B42;
+}
+
+
+button.quote {
+/* btn-10 */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 36px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 30px;
+left: calc(50% - 191px/2 - 429.5px);
+top: 546px;
+
+/* primary-color */
+background: #23A6F0;
+border-radius: 37px;
+color: white;
+/* btn-text */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+}
+
+button.learnmore {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 36px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 180px;
+  height: 58px;
+  left: calc(50% - 155px/2 - 245.5px);
+  top: 546px;
+  
+  /* primary-color */
+  
+  border: 1px solid #23A6F0;
+  border-radius: 37px;
+  /* btn-text */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 0px;
+
+  /* primary-color */
+
+  color: #23A6F0;
+}
+
+
+
+#hero2 {
+    width: auto;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: rgba(250, 250, 250, 1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.businessadvice{
+    /* Business Advice */
+    position: absolute;
+    width: 360px;
+    height: 57px;
+    left: 195px;
+    top: 87px;
+    /* h2 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    /* identical to box height, or 142% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* text-color */
+    color: #252B42;
+}
+
+.disasterrecoveryplanning{
+/* Disaster recovery planning, business continuity management, and disaster recovery. */
+position: absolute;
+width: 494px;
+height: 60px;
+left: 195px;
+top: 154px;
+
+/* h4 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+letter-spacing: 0.2px;
+/* second-text-color */
+color: #737373;
+}
+
+
+
+.carditem1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  width: 330px;
+  height: 112px;
+  top: 280px;
+  background: white;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  display: inline-block;
+  }
+
+  .text1{
+    position: absolute;
+    top: 32px;
+    left: 107px;
+    height: 48px;
+    width: 100px;
+    font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     /* or 171% */
+     /* second-text-color */
+     color: #737373;
+     }
+
+.carditem2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  width: 330px;
+  height: 112px;
+  left: calc(50% - 330px/2 - 360px) + 30px;
+  top: 280px;
+  background: white;
+  border-radius: 2px;
+  }
+
+.text2{
+  position: absolute;
+  top: 25px;
+  left: 107px;
+  height: 48px;
+  width: 100px;
+  font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   /* or 171% */
+   /* second-text-color */
+   color: #737373;
+  }
+
+.carditem3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  width: 330px;
+  height: 112px;
+  left: 915px;
+  top: 280px;
+  background: white;
+  border-radius: 2px;
+  }
+
+.text2{
+  position: absolute;
+  top: 25px;
+  left: 107px;
+  height: 48px;
+  width: 100px;
+  font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   /* or 171% */
+   /* second-text-color */
+   color: #737373;
+  }
+
+  #hero3{
+    /* Desktop - 2 */
+    position: relative;
+    width: 1440px;
+    height: 749px;
+    /* light-gray-1 */
+    background: white;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .rectangle1{
+    position: relative;
+    height: 112px;
+    width: 330px;
+    background-color: white;
+    left: 195px;
+
+  }
+
+  
+  .circle{
+    width: 72px;
+    height: 72px;
+    top: 20px;
+    left: 20px;
+    background: #23A6F0;
+    border-radius: 100px;
+    position: relative;
+    flex:none
+    order: 0;
+    flex-grow: 0;
+    justify-content: center;
+    align-item: center;
+  }
+
+  
+.icon1{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+  
+.icontext{
+  position: absolute;
+  width: 88px;
+  height: 48px;
+  left: 107px;
+  top: 32px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  height: 48px;
+  width: 100px;
+
+
+}
+
+
+#hero4{
+  /* Desktop - 2 */
+  position: relative;
+  width: 1440px;
+  height: 749px;
+  /* light-gray-1 */
+  background: white;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+.cover1 {
+  position: absolute;
+  top: 268px;
+  left: 195px;
+}
+
+.whatclientsays{
+  /* What Clients Say */
+position: absolute;
+width: 346px;
+height: 57px;
+left: 547px;
+top: 100px;
+
+/* h2 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+text-align: center;
+letter-spacing: 0.2px;
+
+/* text-color */
+color: #252B42;
+height: 57px;
+width: 406px;
+left: 547px;
+top: 100px;
+border-radius: nullpx;
+}
+
+.whatclientsays2{
+  position: absolute;
+  height: 60px;
+  width: 649px;
+  left: 396px;
+  top: 164px;
+  border-radius: nullpx;
+  /* h4 */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+  
+}
+
+.box1{
+  position: absolute;
+  height: 292.01361083984375px;
+  width: 332px;
+  left: 323px;
+  top: 268px;
+  border-radius: 0px;
+  padding: 40px 30px 40px 30px;
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+.reviewer{
+  width: 252px;
+  height: 32px;
+
+  /* h3 */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+
+  /* text-color */
+
+  color: #252B42;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.position{
+  width: 150px;
+  height: 24px;
+
+  /* h6 */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.stars{
+  height: 22.013620376586914px;
+  width: 130.06809997558594px;
+  left: 30px;
+  top: 111px;
+  border-radius: 0px;
+
+}
+
+.desc{
+  width: 242px;
+height: 104px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#hero5{
+  position: relative;
+  width: 1440px;
+  height: 260px;
+  background-color: rgba(37, 43, 66, 1);
+}
+
+.subscibenow{
+  /* Subscribe Now */
+
+
+position: absolute;
+width: 319px;
+height: 57px;
+left: calc(50% - 309px/2 - 370.5px);
+top: 66px;
+
+/* h2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+}
+
+.gradual{
+  /* The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th */
+
+
+position: absolute;
+width: 443px;
+height: 40px;
+left: calc(50% - 443px/2 - 303.5px);
+top: 130px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+}
+
+.buttonz{
+  /* btn */
+box-sizing: border-box;
+position: absolute;
+left: 1128px;
+top: 105px;
+
+/* primary-color */
+background: #23A6F0;
+border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
+height: 58px;
+width: 117px;
+border-radius: [object Object]px;
+align-items: center;
+justify-content: center;
+}
+
+.subscribetext{
+  position: absolute;
+  width: 72px;
+  height: 28px;
+  left: calc(50% - 72px/2);
+  top: calc(50% - 28px/2);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light-text-color */
+
+  color: #FFFFFF;
+}
+
+#hero6{
+  /* Desktop - 5 */
+
+
+width: 1440px;
+height: 75px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    width: 300px;
+    height: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+   /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.children {
+    width: 50px;
+    height: 50px;
+}
+
+.children1 {
+    background-color: blue;
+    left: 20px;
+}
+
+.children2 {
+    background-color: yellow;
+}
+
+.children3 {
+    background-color: red;
+}
