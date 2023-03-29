@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmistyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">BMI Calculator.</h1>
+      <form>
+        <div class="form-group1">
+          <label for="weight">Weight (kg)</label>
+          <input type="number" id="we" value="0">
+        </div>
+
+        <div class="form-group1">
+          <label for="height">Height (cm)</label>
+           <input type="number" id="he" value="0">
+        </div>
+      </form>
+
+      <button onclick="myFunction()">Try it</button>
+      <p id="bmi_capture"></p>
+      <p id="bmi-advice"></p>
+    </div>
+    <script>
+        function myFunction() {
+          var weight1 = document.getElementById("we").value;
+          var height1 = document.getElementById("he").value;
+          var bmi_advice;
+          height1 = height1/100;
+          var bmi = weight1/(height1*height1);
+          bmi = bmi.toFixed(2);
+
+          if (bmi>18.4 && bmi<24.91){
+            bmi_advice = "Congratulations! You have a normal BMI."
+          }
+          if (bmi>24.9){
+            bmi_advice = "You need to lose weight."
+          }
+          if (bmi<18.4) {
+            bmi_advice = "You need to gain weight."
+          }
+          bmi = "Your BMI is " + bmi;
+          document.getElementById("bmi_capture").innerHTML = bmi;
+          document.getElementById("bmi-advice").innerHTML = bmi_advice;
+        }
+        </script>
+  </body>
+</html>
