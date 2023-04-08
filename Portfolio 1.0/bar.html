@@ -1,67 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-
-.section-bar1 {
-    position: relative;
-    width: auto;
-    height: auto;
-    background-color: whitesmoke;
-    padding: 19px;
-    display: flex;
-    flex-direction: column;
-    text-align: ;
-}
-
-.container {
-  width: 100%;
-  background-color: black;
-  padding: 5px;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.bar1 {width: 22%; background-color: lightblue;}
-.bar2 {width: 33%; background-color: lightcoral;}
-.bar3 {width: 12%; background-color: lightgreen;}
-.bar4 {width: 1%; background-color: lightgoldenrodyellow;}
-
-</style>
+	<title>Send Email</title>
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
+	<form id="contact-form">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br>
 
-<h1>My Skills</h1>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br>
 
+		<label for="message">Message:</label>
+		<textarea id="message" name="message"></textarea><br>
 
-<div class="section-bar1">
-<p>HTML</p>
-<div class="container">
-  <div class="skills bar1">22%</div>
-</div>
-<p>CSS</p>
-<div class="container">
-  <div class="skills bar2">33%</div>
-</div>
-<p>JS</p>
-<div class="container">
-  <div class="skills bar3">12%</div>
-</div>
-<p>React.js</p>
-<div class="container">
-  <div class="skills bar4">1%</div>
-</div>
-
-
-
-</div>
-
+		<input type="submit" value="Send">
+	</form>
 </body>
 </html>

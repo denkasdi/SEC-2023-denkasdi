@@ -1,0 +1,74 @@
+/* Mail ME Section */
+    /* Contact Form*/
+
+    #emailform1 {
+        position: fixed;
+        opacity: 0%;
+        padding: 0%;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        background-color: whitesmoke;
+        z-index: 97;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px;
+        justify-content: center;
+      }
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 12px 20px;
+        font-size: 16px;
+      }
+      input[type="submit"]:hover {
+        background-color: black;
+      }
+      .success {
+        color: green;
+      }
+      .error {
+        color: red;
+      }
+  
+      .formcard {
+          position: relative;
+          background-color: white;
+          display: grid;
+          place-items: center;
+          padding: 10%;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+      }
+  
+      .formcard2 {
+          position: relative;
+          background-color: whitesmoke;
+          display: grid;
+          place-items: center;
+          padding: 10%;
+          border-width: 2px;
+          border-color: black;
+          box-shadow: 5px 10px;
+      }
+  
